@@ -1,0 +1,290 @@
+:root {
+    /* FONT-SIZE */
+    --fs-10: 10px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-64: 64px;
+
+    /* LINE-HEIGHT */
+    --line-15: 15px;
+    --line-21: 21px;
+    --line-23: 23px;
+    --line-24: 24px;
+    --line-25: 25px;
+    --line-27: 27px;
+    --line-28: 28px;
+    --line-30: 30px;
+    --line-32: 32px;
+    --line-35: 35px;
+    --line-36: 36px;
+    --line-37: 37px;
+    --line-42: 42px;
+    --line-56: 56px;
+    --line-75: 75px;
+
+    /* COLORS */
+    --white: #FFFFFF;
+    --black: #010101;
+    --light-blue: #4377F8;
+    --blue: #1219D2;
+    --purple: #4E52B1;
+    --border: #FDFDFD66;
+    --border-2: #FFFFFF99;
+    --bg-color: #2B294B;
+    --box-color: #1A1A45;
+    --blue2: #140D1B;
+ 
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+}
+.blue2{
+    color: var(--blue2);
+}
+.box-color{
+    color: var(--box-color);
+}
+.fw-300{
+    font-weight: var(--fw-300);
+}
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-500{
+    font-weight: var(--fw-500);
+}
+.fw-600{
+    font-weight: var(--fw-600);
+}
+.fw-700{
+    font-weight: var(--fw-700);
+}
+.fw-800{
+    font-weight: var(--fw-800);
+}
+.fw-900{
+    font-weight: var(--fw-900);
+}
+.bg-color {
+    color: var(--bg-color);
+}
+
+.border-2 {
+    color: var(--border-2);
+}
+
+.border {
+    color: var(--border)
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.purple {
+    color: var(--purple);
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.racing-f {
+    font-family: 'Racing Sans One', sans-serif;
+}
+
+.work-f {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.light-blue {
+    color: var(--light-blue);
+}
+
+.fs-10 {
+    font-size: var(--fs-10);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-32 {
+    font-size: var(--fs-32);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.line-15 {
+    line-height: var(--line-15);
+}
+
+.line-21 {
+    line-height: var(--line-21);
+}
+
+.line-23 {
+    line-height: var(--line-23);
+}
+
+.line-24 {
+    line-height: var(--line-24);
+}
+
+.line-25 {
+    line-height: var(--line-25);
+}
+
+.line-27 {
+    line-height: var(--line-27);
+}
+
+.line-28 {
+    line-height: var(--line-28);
+}
+
+.line-30 {
+    line-height: var(--line-30);
+}
+
+.line-32 {
+    line-height: var(--line-32);
+}
+
+.line-35 {
+    line-height: var(--line-35);
+}
+
+.line-36 {
+    line-height: var(--line-36);
+}
+
+.line-37 {
+    line-height: var(--line-37);
+}
+
+.line-42 {
+    line-height: var(--line-42);
+}
+
+.line-56 {
+    line-height: var(--line-56);
+}
+
+.line-75 {
+    line-height: var(--line-75);
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+@media (max-width:768px) {
+    :root {
+        /* FONT-SIZE */
+        --fs-10: 10px;
+        --fs-14: 14px;
+        --fs-16: 12px;
+        --fs-20: 20px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-32: 32px;
+        --fs-36: 36px;
+        --fs-48: 48px;
+        --fs-64: 20px;
+
+        /* LINE-HEIGHT */
+        --line-15: 15px;
+        --line-21: 21px;
+        --line-23: 23px;
+        --line-24: 20px;
+        --line-25: 25px;
+        --line-27: 27px;
+        --line-28: 28px;
+        --line-30: 30px;
+        --line-32: 32px;
+        --line-35: 35px;
+        --line-36: 36px;
+        --line-37: 37px;
+        --line-42: 42px;
+        --line-56: 56px;
+        --line-75: 45px;
+    }
+
+}
+
+@media (max-width:992px) {
+    :root {
+        /* FONT-SIZE */
+        --fs-10: 10px;
+        --fs-14: 14px;
+        /* --fs-16: 16px; */
+        --fs-20: 20px;
+        --fs-24: 24px;
+        --fs-28: 28px;
+        --fs-32: 32px;
+        --fs-36: 36px;
+        --fs-48: 48px;
+        --fs-64: 40px;
+
+        /* LINE-HEIGHT */
+        --line-15: 15px;
+        --line-21: 21px;
+        --line-23: 23px;
+        /* --line-24: 24px; */
+        --line-25: 25px;
+        --line-27: 27px;
+        --line-28: 28px;
+        --line-30: 30px;
+        --line-32: 32px;
+        --line-35: 35px;
+        --line-36: 36px;
+        --line-37: 37px;
+        --line-42: 42px;
+        --line-56: 56px;
+        --line-75: 75px;
+    }
+
+}

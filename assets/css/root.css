@@ -39,6 +39,7 @@
     --bg-color: #2B294B;
     --box-color: #1A1A45;
     --blue2: #140D1B;
+    --op_80: #D5DDE8;
  
 
     /* font-weight */
@@ -49,6 +50,9 @@
     --fw-700: 700;
     --fw-800: 800;
     --fw-900: 900;
+}
+.op_80{
+    color: var(--op_80);
 }
 .blue2{
     color: var(--blue2);

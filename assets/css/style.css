@@ -223,8 +223,22 @@ gap: 20px;
 .elips_2{
     bottom: -50%;
     right: 0;
-    z-index: 3;
+    z-index: 2;
 }
+.pt-86{
+    padding-top: 86px;
+}
+.pt-22{
+    padding-top: 22px;
+}
+.pt-106{
+    padding-top: 106px;
+}
+
+
+
+
+
 
 
 

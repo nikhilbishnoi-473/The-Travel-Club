@@ -45,6 +45,7 @@
     --box-color: #161B97;
     --op-color: #1219D220;
     --card-color: #8A8EF714;
+    --white-2: #FAFAFA;
  
 
     /* font-weight */
@@ -55,6 +56,9 @@
     --fw-700: 700;
     --fw-800: 800;
     --fw-900: 900;
+}
+.white-2{
+    color: var(--white-2);
 }
 
 .op-color{
@@ -254,7 +258,7 @@
         --fs-28: 28px;
         --fs-32: 32px;
         --fs-36: 36px;
-        --fs-48: 25px;
+        --fs-48: 21px;
         --fs-64: 20px;
 
         /* LINE-HEIGHT */
@@ -315,7 +319,7 @@
     :root {
         --fs-10: 10px;
         --fs-14: 14px;
-        --fs-16: 16px;
+        /* --fs-16: 16px; */
         --fs-20: 15px;
         --fs-24: 24px;
         /* --fs-28: 28px; */

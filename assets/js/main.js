@@ -10,7 +10,7 @@ $('.responsive').slick({
     dots: true,
     infinite: true,
     speed: 500,
-    autoplay: false,
+    autoplay: true,
     arrows: true,
     prevArrow: false,
     nextArrow: false,
@@ -21,7 +21,8 @@ $('.responsive').slick({
             breakpoint: 1440,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 2
+              slidesToScroll: 2,
+              autoplay: true,
             }
           },
       {
@@ -30,7 +31,8 @@ $('.responsive').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          dots: true,
+          autoplay: true,
         }
       },
       {
@@ -38,22 +40,18 @@ $('.responsive').slick({
         settings: {
           slidesToShow: 1.5,
           slidesToScroll: 1,
+          autoplay: true,
         }
       },
       {
-        breakpoint: 630,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
         }
       },
-      {
-        breakpoint: 380,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      }
+      
      
     ]
   });

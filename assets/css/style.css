@@ -24,6 +24,16 @@
     background-position: center;
     background-size: cover;
 }
+.bg-imag_2{
+     background: var(--bg-image);
+    background-image: url(../images/bg-image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pt-130{
+    padding-top: 130px;
+}
+ 
 .gap-4{
     gap: 4.43px;
 }
@@ -351,6 +361,46 @@ margin-left: 10px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.box_travel{
+    max-width: 582px;
+    padding: 29px 50px 31px 50px;
+    background: var(--blue);  
+    border-radius: 20px; 
+}
+
+.gap-99{
+    gap: 99px;
+}
+.pt-26{
+    padding-top: 26px;
+}
+.pt-18{
+    padding-top: 18px;
+}
+.gap-90{
+    gap: 90px;
+}
+.gap-30{
+    gap: 30px;
+}
+ .gap-22{
+    gap: 22px;
+ }
+ .pt-43{
+    padding-top: 43px;
+ }
+.pt-54{
+    padding-top: 54px;
+}
+.pb-130{
+    padding-bottom: 130px;
+}
+.pt-11{
+    padding-top: 11px;
+}
+.group_2{
+    max-width: 406px;
+}
 
 
 
@@ -451,5 +501,23 @@ margin-left: 10px;
     .mt-40{
         margin-top: 20px;
     }
+    .pt_20{
+        padding-top: 20px;
+    }
     
+}
+@media (max-width: 578px) {
+    .box_travel{
+        padding: 29px 30px 31px 20px;
+    }
+    
+.gap-90{
+    gap: 30px;
+}
+.gap-30{
+    gap: 30px;
+}
+.gap-99{
+    gap: 30px;
+}
 }

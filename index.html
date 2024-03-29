@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class="bg_img  d-none">
+    <header class="bg_img  d -none">
         <div class="nav-box d-flex overflow-hidden align-items-center   ">
             <div class="container  max-w-1140  ">
                 <nav class="d-flex  pt-29 pb-30 align-items-center justify-content-between">
@@ -93,14 +93,16 @@
                         </ul>
                     </div>
                     <div class="d-flex gap-10 justify-content-end cursor   pt-29">
-                        <h4 class="poppins fw-400 fs-14 line-21 mb-0 white">1 room, 2 travelers</h4>
+                        <h4 class="poppins z-3 fw-400 fs-14 line-21 mb-0 white">1 room, 2 travelers</h4>
                         <img id="arrow_1" onclick="tra_sition()" src="./assets/images/svg/arrow.svg" alt="svg">
+                        
                     </div>
                     <div class="row">
                         <div class="col-lg-6 mt-10">
-                            <div class="going_to  d-flex gap-12">
+                            <div class="going_to z-3  d-flex gap-12">
                                 <img src="./assets/images/svg/location.svg" alt="svg">
-                                <h4 class="poppins fw-300 fs-16 line-24 mb-0 white">Going to</h4>
+                                
+                                <input type="text" placeholder="Going to" class="z-3 poppins w-100 fw-300 fs-16 line-24 mb-0 white" style="list-style: none; color: white; outline: none; background: transparent; border: 0;">
                             </div>
                         </div>
                         <div class="col-lg-3 mt-10">
@@ -137,11 +139,11 @@
                         </div>
                     </div>
                     <div class="d-flex gap-30 pt-10 flex-wrap">
-                        <div class="d-flex gap-10  ">
+                        <div class="d-flex gap-10 z-3 ">
                             <input type="checkbox" id="" name="click" value="">
                             <h4 class="poppins fw-300 fs-16 line-24 mb-0 white  text-nowrap"> Add a flight</h4>
                         </div>
-                        <div class="d-flex gap-10 ">
+                        <div class="d-flex gap-10 z-3">
                             <input type="checkbox" id="" name="click" value="">
                             <h4 class="poppins fw-300 fs-16 line-24 mb-0 white text-nowrap"> Add a car</h4>
                         </div>
@@ -153,10 +155,10 @@
             </div>
         </div>
     </header>
-    <section class="bg-color_2 d-none mt--2 position-relative">
+    <section class="bg-color_2 d- none mt--2 position-relative">
         <div class="container max-w-1140">
             <div class="row flex-column-reverse flex-lg-row">
-                <div class="col-lg-6 col-12 d-flex align-items-center justify-content-lg-start justify-content-center">
+                <div class="col-lg-6 col-12 d-flex align-items-center justify-content-lg-start text-lg-start text-center justify-content-center">
                     <div class="d-flex flex-column">
                         <h3 class="work-f z-3 mb-0 fw-400 fs-48 line-56 white mb-0 ">About Us</h3>
                         <p class="para_1  z-3 mb-0 poppins fw-400 fs-16 line-24 white op-80 pt-16">We are building a
@@ -167,7 +169,9 @@
                             something fairly common in the web3 and blockchain space. A DAO can be described as a
                             transparent governing body, where each member typically shares a common goal, which is the
                             best interest of the platform.</p>
+                       <div class="cursor">
                         <button class="poppins  z-3 fw-600 fs-16 line-24 btn_get white mt-40">Get rewards</button>
+                       </div>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start col-12 pt-110 pb-86">
@@ -185,64 +189,66 @@
             <img src="./assets/images/svg/elips_2.svg" alt="svg">
         </div>
     </section>
-    <section class="bg-color_2 d-none ">
+    <section class="bg-color_2 mt--2     d -none ">
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center pt-86">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Popular Destinations</h3>
             </div>
-            <div class="row pt-106">
-                <div class="col-lg-4 col-md-6 ">
-                    <div class="cursor border_radius z-3 img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid1.png" alt="grid1">
+            <div class="row pt-106 justify-content-center d-flex">
+                <div class="col-md-4 col-12  ">
+                    <div class="cursor border_radius justify-content-center d-flex z-3 img_1 position-relative overflow-hidden ">
+                        <img class="w-100 max-w-367 image-zoom  " src="./assets/images/grid1.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24  "> Cir. Shiloh, Hawaii
                                 81063</h4>
                         </div>
                     </div>
-                    <div class="cursor mt-22 z-3 border_radius img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid4.png" alt="grid1">
+                    <div class="cursor  mt-22 z-3 justify-content-center d-flex border_radius img_1 position-relative overflow-hidden ">
+                        <img class="w-100 max-w-366 image-zoom  " src="./assets/images/grid4.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24  "> Cir. Shiloh, Hawaii
                                 81063</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 ">
-                    <div class="cursor z-3 border_radius img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid2.png" alt="grid1">
+                <div class="col-md-4 col-12 ">
+                    <div class="cursor z-3 justify-content-center pt_23 d-flex border_radius img_1 position-relative overflow-hidden ">
+                        <img class="w-100 image-zoom max-w-366" src="./assets/images/grid2.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24  "> Cir. Shiloh, Hawaii
                                 81063</h4>
                         </div>
                     </div>
-                    <div class="cursor mt-22 z-3 border_radius img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid5.png" alt="grid1">
+                    <div class="cursor justify-content-center d-flex mt-22 z-3 border_radius img_1 position-relative overflow-hidden ">
+                        <img class="w-100 image-zoom max-w-367 " src="./assets/images/grid5.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24 "> Cir. Shiloh, Hawaii 81063
                             </h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 ">
-                    <div class="cursor z-3 border_radius img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid3.png" alt="grid1">
+                <div class="col-md-4 col-12  ">
+                   <div class="">
+                    <div class="cursor justify-content-center pt_23 d-flex z-3 border_radius img_1 position-relative overflow-hidden ">
+                        <img class="w-100 image-zoom max-w-366   " src="./assets/images/grid3.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24  "> Cir. Shiloh, Hawaii
                                 81063</h4>
                         </div>
                     </div>
-                    <div class="cursor z-3 mt-22 border_radius img_1 position-relative overflow-hidden ">
-                        <img class="w-100 image-zoom  " src="./assets/images/grid6.png" alt="grid1">
+                    <div class="cursor justify-content-center d-flex  z-3 mt-22 border_radius img_1 position-relative overflow-hidden ">
+                        <img class="w-100 image-zoom max-w-368  " src="./assets/images/grid6.png" alt="grid1">
                         <div class="position-absolute button-hover">
                             <h4 class="hover_button op_80 poppins mb-0 fw-500 fs-16 line-24  "> Cir. Shiloh, Hawaii
                                 81063</h4>
                         </div>
                     </div>
+                   </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-color_2 d-none">
+    <section class="bg-color_2 mt--2 d -none">
         <div class="container max-w-1140 pb-110">
             <div class="d-flex justify-content-center pt-160">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Member Deals</h3>
@@ -359,14 +365,14 @@
             </div>
         </div>
     </section>
-    <section class="bg-imag_2 d-none">
+    <section class="bg-imag_2 d - mt--2">
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center pt-130  text-center">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white ">Tokenomics: Powering Digital Economies</h3>
             </div>
             <div class="row pt-50 pb-130">
                 <div class="col-lg-5 d-flex align-items-lg-center justify-content-center">
-                    <img class="w-100 group_2" src="./assets/images/Group2.png" alt="Group2">
+                    <img class="w-100 rota te group_2" src="./assets/images/Group2.png" alt="Group2">
                 </div>
                 <div class="col-lg-7 pt_20 d-flex justify-content-lg-end justify-content-center">
                     <div class="box_travel ">
@@ -453,7 +459,7 @@
         </div>
         </div>
     </section>
-    <section class="bg-color_2 d -none">
+    <section class="bg-color_2 mt--2 d -none">
         <div class="container max-w-1140 pb-160">
             <div class="d-flex justify-content-center pt-54">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Meet Our Team</h3>

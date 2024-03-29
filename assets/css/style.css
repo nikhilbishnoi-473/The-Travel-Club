@@ -401,7 +401,15 @@ margin-left: 10px;
 .group_2{
     max-width: 406px;
 }
-
+.card-2-text{
+    padding: 20px 0px 0px 24px;
+}
+.pb-96{
+    padding-bottom: 96px;
+}
+.pb-160{
+    padding-bottom: 160px;
+}
 
 
 

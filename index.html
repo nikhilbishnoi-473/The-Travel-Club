@@ -19,14 +19,14 @@
 </head>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <img class="rotate" src="./assets/images/svg/top-arrow.svg" alt="arrow">
+    <button class="transition_4" onclick="topFunction()" id="myBtn" title="Go to top">
+        <img class="rotate " src="./assets/images/svg/top-arrow.svg" alt="arrow">
     </button>
-    <header class="bg_img  d-none">
+    <header class="bg_img  d -none">
         <div class="nav-box d-flex overflow-hidden align-items-center   ">
             <div class="container  max-w-1140  ">
                 <nav class="d-flex  pt-29 pb-30 align-items-center justify-content-between">
-                    <div class="d-flex gap-4 align-items-center ">
+                    <div class="d-flex gap_4 align-items-center ">
                         <img class="cursor" src="./assets/images/logo.png" alt="svg">
                         <h2 class=" racing-f fw-400 line-35 fs-28 white mb-0  ">The Travel Club</h2>
                     </div>
@@ -34,16 +34,16 @@
                     <div class="d-flex z_10 mb-0  gap-150 align-items-center mobile_view" id="navbar">
 
                         <ul class="d-flex pb_ml_0  gap-32 justify-content-center flex-col align-items-center ">
-                            <li><a href="#Minting" class="poppins fw-500 fs-16 line-24 white  underline "
+                            <li><a href="#Home" class="poppins fw-500 fs-16 line-24 white  underline "
                                     onclick="openNav()">Home</a></li>
-                            <li><a href="#Road" class=" poppins fw-500 fs-16 line-24 white  underline "
+                            <li><a href="#token" class=" poppins fw-500 fs-16 line-24 white  underline "
                                     onclick="openNav()">token</a></li>
-                            <li><a href="#Faq" class=" poppins fw-500 fs-16 line-24 white  underline"
+                            <li><a href="#FAQs" class=" poppins fw-500 fs-16 line-24 white  underline"
                                     onclick="openNav()">FAQs</a>
                             </li>
-                            <li><a href="#Team" class=" poppins fw-500 fs-16 line-24 white  underline "
+                            <li><a href="#About" class=" poppins fw-500 fs-16 line-24 white  underline "
                                     onclick="openNav()">About</a></li>
-                            <li><a href="#Join" class=" poppins fw-500 fs-16 line-24 white  underline "
+                            <li><a href="#Contact" class=" poppins fw-500 fs-16 line-24 white  underline "
                                     onclick="openNav()">Contact us</a></li>
 
 
@@ -63,7 +63,7 @@
                 </nav>
             </div>
         </div>
-        <div class="container max-w-1140">
+        <div class="container max-w-1140" id="Home">
             <div class="d-flex justify-content-center  text-center   pt-140  ">
                 <h1 class="white fw-400 fs-64 work-f line-75 mb-0 tok enized">Tokenized and Decentralized </h1>
             </div>
@@ -160,7 +160,7 @@
             </div>
         </div>
     </header>
-    <section class="bg-color_2 d-none mt--2 position-relative">
+    <section class="bg-color_2 d- none mt--2 position-relative">
         <div class="container max-w-1140">
             <div class="row flex-column-reverse flex-lg-row">
                 <div
@@ -195,7 +195,7 @@
             <img src="./assets/images/svg/elips_2.svg" alt="svg">
         </div>
     </section>
-    <section class="bg-color_2 mt--2     d-none ">
+    <section class="bg-color_2 mt--2     d- none ">
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center pt-86">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Popular Destinations</h3>
@@ -260,7 +260,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-color_2 mt--2 d-none">
+    <section class="bg-color_2 mt--2 d- none" id="token">
         <div class="container max-w-1140 pb-110">
             <div class="d-flex justify-content-center pt-160">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Member Deals</h3>
@@ -377,7 +377,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-imag_2 d-none mt--2">
+    <section class="bg-imag_2 d -none mt--2" id="FAQs">
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center pt-130  text-center">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white ">Tokenomics: Powering Digital Economies</h3>
@@ -471,7 +471,7 @@
         </div>
         </div>
     </section>
-    <section class="bg-color_2 mt--2 d-none">
+    <section class="bg-color_2 mt--2 d- none" id="About">
         <div class="container max-w-1140 pb-160">
             <div class="d-flex justify-content-center pt-54">
                 <h3 class="work-f fw-400 fs-48 line-56 mb-0 white">Meet Our Team</h3>
@@ -508,7 +508,7 @@
             </div>
         </div>
     </section>
-    <section class="bg-color_2 mt--2">
+    <section class="bg-color_2 mt--2" id="Contact">
         <div class="container max-w-1140">
             <div class="d-flex justify-content-center">
                 <h4 class="work-f fw-400 fs-48 line-56 mb-0 white">Frequently Asked Questions</h4>
@@ -593,16 +593,57 @@
     </section>
     <footer class="bg-black mt--2">
         <div class="container max-w-1140">
-            <div class="row pt-44">
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-5">
-                            <div class="d-flex gap-4 align-items-center ">
-                                <img class="cursor" src="./assets/images/logo.png" alt="svg">
-                                <h2 class=" racing-f fw-400 line-35 fs-28 white mb-0  ">The Travel Club</h2>
-                            </div>
-                        </div>
+            <div class="row  pb-50">
+                <div class="col-lg-3 col-12 pt-44">
+                    <div class="d-flex gap_4 align-items-center ">
+                        <img class="cursor" src="./assets/images/logo.png" alt="svg">
+                        <h2 class=" racing-f fw-400 line-35 fs-28 white mb-0  underline ">The Travel Club</h2>
                     </div>
+                    <p class="para_5 op-70 poppins fw-400 fs-16 line-25 m-0 white-2">At congue consectetur pharetra
+                        morbi. Amet blandit vestibulum feugiat tempus urna laoreet </p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-lg-center">
+                    <ul class="pb_ml_0 pt-51">
+                        <li class=""> <a href="" class="poppins  underline white fw-400 fs-16 line-25 ">Company</a></li>
+                        <li class="pt-18"><a href="" class="poppins  underline white fw-400 fs-16 line-25 op-80  ">About</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80  ">Privacy
+                                Policy</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80 ">Partnership</a>
+                        </li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80">FAQ</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80 ">Contact </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-lg-center">
+                    <ul class="pb_ml_0 pt-51">
+                        <li class=""> <a href="" class="poppins white fw-400 fs-16 underline line-25 ">Contact Us</a></li>
+                        <li class="pt-18"><a href="https://maps.app.goo.gl/gNcEBNdozqzn6WgWA" target="_blank" class="poppins white fw-400 fs-16 line-25 op-80 location_1 ">4517
+                                Washington Ave. Manchester, Kentucky 39495</a></li>
+                        <li class="pt-18"><a href="tel:+123 456 7890" class="poppins white fw-400 fs-16 line-25 op-80 underline">+123 456 7890,
+                                +123 456 7890</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-lg-center  ">
+                    <ul class="pb_ml_0 pt-51">
+                        <li class=""> <a href="" class="poppins white  underline fw-400 fs-16 line-25 ">Quick Links</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80  ">Home</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80  ">About</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80 ">Token</a>
+                        </li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80">FAQ</a></li>
+                        <li class="pt-18"><a href="" class="poppins underline white fw-400 fs-16 line-25 op-80 ">Popular Destinations </a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-lg-end">
+                    <ul class="pb_ml_0 pt-51">
+                        <li class=""> <a href="" class="poppins white fw-400 fs-16 line-25  underline   ">Social Share</a></li>
+                       <ul class="d-flex pb_ml_0 gap-32 pt-18">
+                        <li><a href="https://twitter.com/?lang=en" target="_blank"><img class="transition_3" src="./assets/images/svg/twiter.svg" alt="svg"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img class="transition_3" src="./assets/images/svg/facebook.svg" alt="svg"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img class="transition_3" src="./assets/images/svg/instagram.svg" alt="svg"></a></li>
+                       </ul>
+                    </ul>
                 </div>
             </div>
         </div>

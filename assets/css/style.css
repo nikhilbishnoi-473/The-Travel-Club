@@ -400,22 +400,34 @@ margin-left: 10px;
 .pb-110{
     padding-bottom: 110px;
 }
+ 
 
-.slick-dots li button:before {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 28px ;
+.slick-dots {
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    display: flex !important;
+}
+
+.responsive .slick-dots li button:before {
     height: 12px;
-    content: '•';
-    text-align: center;
-    opacity: 1 !important; 
-    color: var(--white) !important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    width: 28px;
+    background-color: var(--white);
+    position: absolute;
+    left: 50%;
+    border-radius: 21px;
+    font-size: 0;
+    opacity: 1;
+}
+
+.responsive .slick-dots li.slick-active button:before {
+    width: 59px;
+    opacity: 1;
+    height: 15px;
+    background-color: var(--blue);
+    transform: translateX(-38px);
+    opacity: 1;
+    top: -5%;
 }
 .box_travel{
     max-width: 582px;
@@ -711,8 +723,11 @@ margin-left: 10px;
     .overflow_scroll{
         overflow-x: scroll;
     }
+    .pb-96{
+        padding-bottom: 40px;
+    }
     .pt-140{
-        padding-top: 90px;
+        padding-top: 60px;
     }
     .pt-86{
         padding-top: 40px;
@@ -727,7 +742,10 @@ margin-left: 10px;
         padding-top: 70px;
     }
     .pt-130{
-        padding-top: 40px;
+        padding-top: 20px;
+    }
+    .pt-54{
+        padding-top: 20px;
     }
     .pb-130{
         padding-bottom: 40px;

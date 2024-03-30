@@ -23,7 +23,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px var(--white); 
+    box-shadow: inset 0 0 5px transparent; 
     border-radius: 5px;
   }
    
@@ -35,7 +35,7 @@
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background:var(--blue); 
+    background: transparent; 
   }
 #myBtn {
     display: none;
@@ -105,26 +105,8 @@
 .underline:hover::after {
     width: 100%;
 }
-
-.underline_2 {
-    position: relative;
-}
-
-.underline_2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 0;
-    height: 1px;
-    border-radius: 1px;
-    background-color: var(--white);
-    transition: all 300ms linear;
-}
-
-.underline_2:hover::after {
-    width: 100%;
-}
+ 
+ 
 .gap-10{
     gap: 10px;
 }
@@ -492,15 +474,7 @@ margin-left: 10px;
         transform: rotate(90deg);
     }
 }
-.max-w-367{
-    max-width: 367px;
-}
-.max-w-366{
-    max-width: 366px;
-}
-.max-w-368{
-    max-width: 368px;
-}
+ 
 
 /* accordian */
 
@@ -639,7 +613,10 @@ margin-left: 10px;
     top: -20%;
     left: 0;
 }
-
+.travel_plat{
+    max-width: 889px !important;
+}
+ 
 @media (max-width:1199px) {
     .mobile_view {
         position: fixed;
@@ -735,8 +712,8 @@ margin-left: 10px;
     .pt-106{
         padding-top: 50px;
     }
-    .pt_23{
-        padding-top: 23px;
+    .mt_23{
+        margin-top: 23px;
     }
     .pt-160{
         padding-top: 70px;
@@ -770,6 +747,7 @@ margin-left: 10px;
     .pt_20{
         padding-top: 20px;
     }
+  
     
 }
 @media (max-width: 578px) {
@@ -785,5 +763,56 @@ margin-left: 10px;
 }
 .gap-99{
     gap: 30px;
+}
+}
+@media (min-width: 768px) {
+    .max-w-367{
+        max-width: 367px;
+    }
+    .max-w-366{
+        max-width: 366px;
+    }
+    .max-w-368{
+        max-width: 368px;
+    }
+}
+@media (min-width: 992px) {
+    .bg_line::after {
+        content: '';
+        
+    width: 103%;
+        border-radius: 21px;
+        position: absolute;
+        /* left: 0; */
+        
+        right: 33.7%;
+        bottom: 11px;
+        z-index: 0 !important;
+        display: block;
+        z-index: -1 !important;
+        background: blue;
+        left: 0;
+        right: 0;
+        height: 21px;
+    }
+    
+.underline_2 {
+    position: relative;
+}
+
+.underline_2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 1px;
+    border-radius: 1px;
+    background-color: var(--white);
+    transition: all 300ms linear;
+}
+
+.underline_2:hover::after {
+    width: 100%;
 }
 }

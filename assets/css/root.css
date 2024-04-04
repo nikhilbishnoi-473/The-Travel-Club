@@ -41,12 +41,12 @@
     --blue2: #140D1B;
     --op_80: #D5DDE8;
     --blue3: #1219D233;
-    --bg-image:#140F40;
+    --bg-image: #140F40;
     --box-color: #161B97;
     --op-color: #1219D220;
     --card-color: #8A8EF714;
     --white-2: #FAFAFA;
- 
+
 
     /* font-weight */
     --fw-300: 300;
@@ -57,52 +57,67 @@
     --fw-800: 800;
     --fw-900: 900;
 }
-.white-2{
+
+.white-2 {
     color: var(--white-2);
 }
 
-.op-color{
+.op-color {
     color: var(--op-color);
 }
-.bg-image{
+
+.bg-image {
     color: var(--bg-image);
 }
-.box-color{
+
+.box-color {
     color: var(--box-color);
 }
-.blue3{
+
+.blue3 {
     color: var(--blue3);
 }
-.op_80{
+
+.op_80 {
     color: var(--op_80);
 }
-.blue2{
+
+.blue2 {
     color: var(--blue2);
 }
-.box-color{
+
+.box-color {
     color: var(--box-color);
 }
-.fw-300{
+
+.fw-300 {
     font-weight: var(--fw-300);
 }
-.fw-400{
+
+.fw-400 {
     font-weight: var(--fw-400);
 }
-.fw-500{
+
+.fw-500 {
     font-weight: var(--fw-500);
 }
-.fw-600{
+
+.fw-600 {
     font-weight: var(--fw-600);
 }
-.fw-700{
+
+.fw-700 {
     font-weight: var(--fw-700);
 }
-.fw-800{
+
+.fw-800 {
     font-weight: var(--fw-800);
 }
-.fw-900{
+
+.fw-900 {
     font-weight: var(--fw-900);
 }
+
 .bg-color {
     color: var(--bg-color);
 }
@@ -292,8 +307,8 @@
         --fs-28: 24px;
         --fs-32: 32px;
         --fs-36: 36px;
-       
-         
+
+
 
         /* LINE-HEIGHT */
         --line-15: 15px;
@@ -309,8 +324,8 @@
         --line-36: 36px;
         --line-37: 37px;
         --line-42: 42px;
-    
-        
+
+
     }
 
 }
@@ -325,9 +340,9 @@
         /* --fs-28: 28px; */
         --fs-32: 32px;
         --fs-36: 36px;
-        
-         
-    
+
+
+
     }
 
 }
